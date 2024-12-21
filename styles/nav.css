@@ -3,11 +3,14 @@ nav{
   justify-content: space-between;
   align-items: center;
   padding: 20px;
+  max-width: 1280px;
+  width: 1280px;
 }
 
 .nave{
   background-color: var(--surface-color);
   border-bottom: solid 2px rgb(151, 140, 140);
+  max-width: 1280px;
 }
 
 nav ul{
@@ -21,4 +24,8 @@ nav ul{
 nav ul li img{
   width: 40px;
   height: 40px;
+}
+
+nav ul img{
+  border-radius: 100%;
 }
